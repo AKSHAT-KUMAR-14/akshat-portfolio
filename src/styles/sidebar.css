@@ -1,0 +1,33 @@
+.sidebar {
+  padding: 30px 20px;
+}
+
+.profile-section {
+  text-align: center;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+
+  margin: auto;
+  margin-bottom: 20px;
+
+  border-radius: 20px;
+
+  background: #2a2a2b;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 50px;
+}
+
+.profile-section h2 {
+  margin-bottom: 10px;
+}
+
+.profile-section p {
+  color: #a0a0a0;
+}

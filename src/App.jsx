@@ -1,4 +1,5 @@
 import "./styles/layout.css";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
             borderRadius: "20px",
           }}
         >
-          Sidebar
+          <Sidebar />
         </div>
 
         <div
