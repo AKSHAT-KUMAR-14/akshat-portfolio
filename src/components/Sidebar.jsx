@@ -1,4 +1,5 @@
 import "../styles/sidebar.css";
+import { profile } from "../data/portfolioData";
 
 function Sidebar() {
   return (
@@ -8,9 +9,9 @@ function Sidebar() {
           👨‍💻
         </div>
 
-        <h2>Akshat Kumar</h2>
+        <h2>{profile.name}</h2>
 
-        <p>Data Science & Software Developer</p>
+        <p>{profile.role}</p>
       </div>
     </div>
   );
