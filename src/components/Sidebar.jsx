@@ -28,6 +28,37 @@ function Sidebar() {
                 </div>
 
             </div>
+            
+            <div className="social-section">
+
+                <a
+                    href={profile.github}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="social-btn"
+                >
+                    GitHub
+                </a>
+
+                <a
+                    href={profile.linkedin}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="social-btn"
+                >
+                    LinkedIn
+                </a>
+
+                <a
+                    href={profile.resume}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="social-btn resume-btn"
+                >
+                    Resume
+                </a>
+
+            </div>
         </div>
     );
 }

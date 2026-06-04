@@ -60,3 +60,36 @@
   font-size: 14px;
   word-break: break-word;
 }
+
+.social-section {
+  margin-top: 25px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.social-btn {
+  display: block;
+
+  text-align: center;
+
+  background: #2a2a2b;
+
+  padding: 12px;
+
+  border-radius: 10px;
+
+  transition: 0.3s ease;
+
+  color: white;
+}
+
+.social-btn:hover {
+  background: #d4b26a;
+  color: black;
+}
+
+.resume-btn {
+  font-weight: bold;
+}

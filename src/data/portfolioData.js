@@ -9,7 +9,7 @@ export const profile = {
 
   github: "https://github.com/AKSHAT-KUMAR-14",
 
-  linkedin: "https://linkedin.com/in/akshat-kumar-sde",
+  linkedin: "https://www.linkedin.com/in/akshat-kumar-sde/",
 
   resume: "#",
 };
