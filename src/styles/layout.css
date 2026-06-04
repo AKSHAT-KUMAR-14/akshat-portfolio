@@ -1,0 +1,14 @@
+.app-container {
+  min-height: 100vh;
+  background: #0f0f0f;
+  padding: 30px;
+}
+
+.main-layout {
+  max-width: 1400px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 25px;
+}
