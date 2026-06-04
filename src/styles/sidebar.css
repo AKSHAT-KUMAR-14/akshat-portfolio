@@ -31,3 +31,32 @@
 .profile-section p {
   color: #a0a0a0;
 }
+
+.divider {
+  margin: 25px 0;
+  border: none;
+  border-top: 1px solid #2f2f31;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contact-item {
+  text-align: left;
+}
+
+.contact-item strong {
+  display: block;
+  color: #d4b26a;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.contact-item p {
+  color: #cfcfcf;
+  font-size: 14px;
+  word-break: break-word;
+}

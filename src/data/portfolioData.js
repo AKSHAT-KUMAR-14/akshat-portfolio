@@ -1,13 +1,15 @@
 export const profile = {
   name: "Akshat K.",
+
   role: "Data Science & Software Developer",
+
   location: "Kanpur, Uttar Pradesh",
 
-  email: "your-email@example.com",
+  email: "akshatkumar0110@gmail.com",
 
   github: "https://github.com/AKSHAT-KUMAR-14",
 
-  linkedin: "https://linkedin.com/in/your-linkedin",
+  linkedin: "https://linkedin.com/in/akshat-kumar-sde",
 
   resume: "#",
 };
