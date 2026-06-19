@@ -3,6 +3,7 @@ import Sidebar from "./components/Sidebar";
 import { useState } from "react";
 import Navbar from "./components/Navbar";
 import About from "./sections/About";
+import Projects from "./sections/Projects";
 
 function App() {
   const [activeTab, setActiveTab] = useState("About");
@@ -38,7 +39,7 @@ function App() {
 
             {activeTab === "Resume" && <h1>Resume</h1>}
 
-            {activeTab === "Projects" && <h1>Projects</h1>}
+            {activeTab === "Projects" && <Projects />}
 
             {activeTab === "Contact" && <h1>Contact</h1>}
           </div>

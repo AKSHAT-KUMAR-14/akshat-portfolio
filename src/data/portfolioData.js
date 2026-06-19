@@ -17,13 +17,19 @@ export const profile = {
 export const projects = [
   {
     title: "AKSHEDI",
-    description: "HRIS Platform",
+    description: "Human Resource Information System platform.",
     tech: ["React", "JavaScript"],
   },
 
   {
     title: "LokAwareness",
-    description: "Policy Simplification Platform",
+    description: "Policy simplification and citizen awareness platform.",
     tech: ["React", "JavaScript"],
   },
-];  
+
+  {
+    title: "Portfolio Website",
+    description: "Personal portfolio built using React and Vite.",
+    tech: ["React", "CSS"],
+  },
+];

@@ -1,0 +1,57 @@
+.projects-grid {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+  gap: 20px;
+
+  margin-top: 30px;
+}
+
+.project-card {
+  background: #222224;
+
+  border-radius: 15px;
+
+  padding: 20px;
+
+  transition: 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h2 {
+  margin-bottom: 15px;
+}
+
+.project-card p {
+  color: #cfcfcf;
+
+  margin-bottom: 15px;
+
+  line-height: 1.6;
+}
+
+.tech-stack {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 10px;
+}
+
+.tech-badge {
+  background: #d4b26a;
+
+  color: black;
+
+  padding: 5px 10px;
+
+  border-radius: 8px;
+
+  font-size: 14px;
+
+  font-weight: 600;
+}
