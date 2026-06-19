@@ -1,12 +1,17 @@
 import "../styles/sidebar.css";
 import { profile } from "../data/portfolioData";
+import profilePic from "../assets/profile.jpg";
 
 function Sidebar() {
     return (
         <div className="sidebar">
             <div className="profile-section">
                 <div className="avatar">
-                    👨‍💻
+                    <img
+                        src={profilePic}
+                        alt="Akshat Kumar"
+                        className="profile-image"
+                    />
                 </div>
 
                 <h2>{profile.name}</h2>
