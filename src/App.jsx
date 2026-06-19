@@ -6,6 +6,7 @@ import About from "./sections/About";
 import Projects from "./sections/Projects";
 import Resume from "./sections/Resume";
 import Skills from "./sections/Skills";
+import Contact from "./sections/Contact";
 
 function App() {
   const [activeTab, setActiveTab] = useState("About");
@@ -45,7 +46,7 @@ function App() {
 
             {activeTab === "Skills" && <Skills />}
 
-            {activeTab === "Contact" && <h1>Contact</h1>}
+            {activeTab === "Contact" && <Contact />}
           </div>
         </>
         </div>
