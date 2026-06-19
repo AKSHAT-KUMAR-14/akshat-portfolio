@@ -55,7 +55,7 @@ function Sidebar() {
                 </a>
 
                 <a
-                    href={profile.resume}
+                    href="/Akshat_Kumar_Resume.pdf"
                     target="_blank"
                     rel="noreferrer"
                     className="social-btn resume-btn"
