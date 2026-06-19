@@ -6,17 +6,7 @@ function About() {
       <h1 className="section-title">About Me</h1>
 
       <p className="about-text">
-        I am a B.Tech CSE (Data Science) graduate currently pursuing
-        M.Tech in Computer Science and Engineering. I enjoy building
-        software solutions, exploring data-driven technologies, and
-        working on projects that solve real-world problems.
-      </p>
-
-      <p className="about-text">
-        My interests include Web Development, Machine Learning,
-        Data Science, System Design, and Software Engineering.
-        I am currently building projects such as AKSHEDI,
-        LokAwareness, and other productivity-focused applications.
+        Computer Science graduate currently pursuing M.Tech in Artificial Intelligence & Data Science at CSJMU. Experienced in system operations, data analytics, process automation, and web development. Previously worked as a System Operations Intern at Vensure Employer Solutions where I managed large-scale client data feeds and automation workflows. Interested in Machine Learning, Data Science, Software Development, and public sector technology initiatives.
       </p>
     </div>
   );
