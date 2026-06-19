@@ -8,6 +8,14 @@
   border-bottom: 1px solid #2f2f31;
 }
 
+@media (max-width: 700px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+}
+
 .nav-btn {
   background: transparent;
   border: none;

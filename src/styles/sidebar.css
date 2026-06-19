@@ -1,5 +1,12 @@
 .sidebar {
   padding: 30px 20px;
+  width: 280px;
+}
+
+@media (max-width: 900px) {
+  .sidebar {
+    width: 100%;
+  }
 }
 
 .profile-section {
