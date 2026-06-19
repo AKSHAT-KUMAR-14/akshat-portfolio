@@ -4,6 +4,7 @@ import { useState } from "react";
 import Navbar from "./components/Navbar";
 import About from "./sections/About";
 import Projects from "./sections/Projects";
+import Resume from "./sections/Resume";
 
 function App() {
   const [activeTab, setActiveTab] = useState("About");
@@ -37,7 +38,7 @@ function App() {
           <div style={{ padding: "30px" }}>
             {activeTab === "About" && <About />}
 
-            {activeTab === "Resume" && <h1>Resume</h1>}
+            {activeTab === "Resume" && <Resume />}
 
             {activeTab === "Projects" && <Projects />}
 
