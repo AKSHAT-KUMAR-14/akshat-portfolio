@@ -18,18 +18,37 @@ export const projects = [
   {
     title: "AKSHEDI",
     description: "Human Resource Information System platform.",
+
     tech: ["React", "JavaScript"],
+
+    github: "https://github.com/AKSHAT-KUMAR-14",
+
+    demo: "#",
   },
 
   {
     title: "LokAwareness",
-    description: "Policy simplification and citizen awareness platform.",
+
+    description:
+      "Policy simplification and citizen awareness platform.",
+
     tech: ["React", "JavaScript"],
+
+    github: "https://github.com/AKSHAT-KUMAR-14",
+
+    demo: "#",
   },
 
   {
     title: "Portfolio Website",
-    description: "Personal portfolio built using React and Vite.",
+
+    description:
+      "Personal portfolio built using React and Vite.",
+
     tech: ["React", "CSS"],
+
+    github: "https://github.com/AKSHAT-KUMAR-14",
+
+    demo: "#",
   },
 ];

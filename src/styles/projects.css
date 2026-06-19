@@ -55,3 +55,29 @@
 
   font-weight: 600;
 }
+
+.project-links {
+  margin-top: 18px;
+
+  display: flex;
+
+  gap: 12px;
+}
+
+.project-links a {
+  background: #2f2f31;
+
+  padding: 8px 14px;
+
+  border-radius: 8px;
+
+  color: white;
+
+  transition: 0.3s ease;
+}
+
+.project-links a:hover {
+  background: #d4b26a;
+
+  color: black;
+}
