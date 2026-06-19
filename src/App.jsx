@@ -1,7 +1,10 @@
 import "./styles/layout.css";
 import Sidebar from "./components/Sidebar";
+import { useState } from "react";
+import Navbar from "./components/Navbar";
 
 function App() {
+  const [activeTab, setActiveTab] = useState("About");
   return (
     <div className="app-container">
       <div className="main-layout">
@@ -23,7 +26,16 @@ function App() {
             borderRadius: "20px",
           }}
         >
-          Main Content
+        <>
+          <Navbar
+            activeTab={activeTab}
+            setActiveTab={setActiveTab}
+          />
+
+          <div style={{ padding: "30px" }}>
+            <h1>{activeTab}</h1>
+          </div>
+        </>
         </div>
 
       </div>

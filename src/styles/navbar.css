@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+
+  padding: 20px;
+
+  border-bottom: 1px solid #2f2f31;
+}
+
+.nav-btn {
+  background: transparent;
+  border: none;
+
+  color: #bdbdbd;
+
+  padding: 10px 16px;
+
+  border-radius: 8px;
+
+  transition: 0.3s ease;
+}
+
+.nav-btn:hover {
+  color: white;
+}
+
+.nav-btn.active {
+  background: #d4b26a;
+  color: black;
+  font-weight: 600;
+}
