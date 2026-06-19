@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import About from "./sections/About";
 import Projects from "./sections/Projects";
 import Resume from "./sections/Resume";
+import Skills from "./sections/Skills";
 
 function App() {
   const [activeTab, setActiveTab] = useState("About");
@@ -41,6 +42,8 @@ function App() {
             {activeTab === "Resume" && <Resume />}
 
             {activeTab === "Projects" && <Projects />}
+
+            {activeTab === "Skills" && <Skills />}
 
             {activeTab === "Contact" && <h1>Contact</h1>}
           </div>
