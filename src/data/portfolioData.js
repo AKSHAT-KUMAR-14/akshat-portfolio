@@ -1,3 +1,7 @@
+import akshediImg from "../assets/project-images/akshedi.png";
+import lokImg from "../assets/project-images/lokawareness.png";
+import portfolioImg from "../assets/project-images/portfolio.png";
+
 export const profile = {
   name: "Akshat Kumar",
 
@@ -17,6 +21,7 @@ export const profile = {
 export const projects = [
   {
     title: "AKSHEDI",
+    image: akshediImg,
     description: "Human Resource Information System platform.",
 
     tech: ["React", "JavaScript"],
@@ -28,7 +33,7 @@ export const projects = [
 
   {
     title: "LokAwareness",
-
+    image: lokImg,
     description:
       "Policy simplification and citizen awareness platform.",
 
@@ -41,7 +46,7 @@ export const projects = [
 
   {
     title: "Portfolio Website",
-
+    image: portfolioImg,
     description:
       "Personal portfolio built using React and Vite.",
 

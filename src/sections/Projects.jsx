@@ -8,39 +8,45 @@ function Projects() {
 
       <div className="projects-grid">
         {projects.map((project) => (
-            <div className="project-card" key={project.title}>
-                <h2>{project.title}</h2>
+          <div className="project-card" key={project.title}>
 
-                <p>{project.description}</p>
+            <img
+              src={project.image}
+              alt={project.title}
+              className="project-image"
+            />
 
-                <div className="tech-stack">
-                {project.tech.map((tech) => (
-                    <span key={tech} className="tech-badge">
-                    {tech}
-                    </span>
-                ))}
-                </div>
+            <h2>{project.title}</h2>
 
-                <div className="project-links">
+            <p>{project.description}</p>
 
-                    <a
-                        href={project.github}
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        GitHub
-                    </a>
-
-                    <a
-                        href={project.demo}
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        Demo
-                    </a>
-
-                </div>
+            <div className="tech-stack">
+              {project.tech.map((tech) => (
+                <span key={tech} className="tech-badge">
+                  {tech}
+                </span>
+              ))}
             </div>
+
+            <div className="project-links">
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+
+              <a
+                href={project.demo}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Demo
+              </a>
+            </div>
+
+          </div>
         ))}
       </div>
     </div>
