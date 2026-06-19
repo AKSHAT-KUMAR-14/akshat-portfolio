@@ -36,7 +36,7 @@ function App() {
             setActiveTab={setActiveTab}
           />
 
-          <div style={{ padding: "30px" }}>
+          <div style={{ padding: "40px" }}>
             {activeTab === "About" && <About />}
 
             {activeTab === "Resume" && <Resume />}
